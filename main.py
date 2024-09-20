@@ -8,8 +8,8 @@ import requests
 from dotenv import dotenv_values
 
 config=dotenv_values("weblopi.env")
-user_key=config["user_key"]
-token_group=config["token_key"]
+token_group=config["token"]
+user_key=config["users"]
 time_refresh=int(config["time_refresh"])
 
 
